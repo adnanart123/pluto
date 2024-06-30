@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+h1{
+    text-align: center;
+    color:white;
+
+}
+body{
+    color: white; 
+    background-color:#000000;
+    font-family: "Anta",sans-serif;
+}
+button{
+color:black;
+filter:drop-shadow(0 0 10px #89baff);
+background-color: #2b92ff;
+border: none;
+border-radius: 5px;
+padding: 10px;
+margin: 5px;
+cursor: pointer;
+}
+.icon{
+    border-radius: 50px;
+    margin: 0px;
+}
+#earth{
+    border-radius: 50px;
+}
+
+.machine{
+    text-align: right;
+    font-weight: 200;
+}
+
+#start_pluto{
+    cursor: pointer;
+}
+
+#pluto{
+    padding-top: 0px;
+    font-size: 40px;
+}
+#icon{
+    float: left;
+}
+
+#code{
+    float: center;
+    margin-bottom: 75px;
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    filter: drop-shadow(0 0 25px white);
+    transition: all 0.5s;
+}
+#code:hover{
+    height: 307px;
+    width: 307px;
+}
